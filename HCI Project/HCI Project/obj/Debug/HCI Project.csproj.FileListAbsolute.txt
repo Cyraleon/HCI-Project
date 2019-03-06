@@ -1,0 +1,10 @@
+C:\Users\winnd\source\repos\HCI Project\HCI Project\bin\Debug\HCI Project.exe.config
+C:\Users\winnd\source\repos\HCI Project\HCI Project\bin\Debug\HCI Project.exe
+C:\Users\winnd\source\repos\HCI Project\HCI Project\bin\Debug\HCI Project.pdb
+C:\Users\winnd\source\repos\HCI Project\HCI Project\obj\Debug\HCI Project.csprojAssemblyReference.cache
+C:\Users\winnd\source\repos\HCI Project\HCI Project\obj\Debug\HCI_Project.frmMain.resources
+C:\Users\winnd\source\repos\HCI Project\HCI Project\obj\Debug\HCI_Project.Properties.Resources.resources
+C:\Users\winnd\source\repos\HCI Project\HCI Project\obj\Debug\HCI Project.csproj.GenerateResource.cache
+C:\Users\winnd\source\repos\HCI Project\HCI Project\obj\Debug\HCI Project.csproj.CoreCompileInputs.cache
+C:\Users\winnd\source\repos\HCI Project\HCI Project\obj\Debug\HCI Project.exe
+C:\Users\winnd\source\repos\HCI Project\HCI Project\obj\Debug\HCI Project.pdb
