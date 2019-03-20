@@ -28,30 +28,30 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.TreeNode treeNode15 = new System.Windows.Forms.TreeNode("Press the \'Setup\' button");
-            System.Windows.Forms.TreeNode treeNode16 = new System.Windows.Forms.TreeNode("Press a letter button");
-            System.Windows.Forms.TreeNode treeNode17 = new System.Windows.Forms.TreeNode("Enter the number to bind");
-            System.Windows.Forms.TreeNode treeNode18 = new System.Windows.Forms.TreeNode("How to setup custom button", new System.Windows.Forms.TreeNode[] {
-            treeNode15,
-            treeNode16,
-            treeNode17});
-            System.Windows.Forms.TreeNode treeNode19 = new System.Windows.Forms.TreeNode("Info", new System.Windows.Forms.TreeNode[] {
-            treeNode18});
-            System.Windows.Forms.TreeNode treeNode20 = new System.Windows.Forms.TreeNode("Ensure remote has batteries");
-            System.Windows.Forms.TreeNode treeNode21 = new System.Windows.Forms.TreeNode("Press power button until it clicks");
-            System.Windows.Forms.TreeNode treeNode22 = new System.Windows.Forms.TreeNode("Check remote is compatible with TV");
-            System.Windows.Forms.TreeNode treeNode23 = new System.Windows.Forms.TreeNode("TV won\'t turn on", new System.Windows.Forms.TreeNode[] {
-            treeNode20,
-            treeNode21,
-            treeNode22});
-            System.Windows.Forms.TreeNode treeNode24 = new System.Windows.Forms.TreeNode("Troubleshooting", new System.Windows.Forms.TreeNode[] {
-            treeNode23});
-            System.Windows.Forms.TreeNode treeNode25 = new System.Windows.Forms.TreeNode("Call 555-555-5555");
-            System.Windows.Forms.TreeNode treeNode26 = new System.Windows.Forms.TreeNode("or email test@site.com");
-            System.Windows.Forms.TreeNode treeNode27 = new System.Windows.Forms.TreeNode("Other Questions", new System.Windows.Forms.TreeNode[] {
-            treeNode25,
-            treeNode26});
-            System.Windows.Forms.TreeNode treeNode28 = new System.Windows.Forms.TreeNode("TODO: add more items");
+            System.Windows.Forms.TreeNode treeNode29 = new System.Windows.Forms.TreeNode("Press the \'Setup\' button");
+            System.Windows.Forms.TreeNode treeNode30 = new System.Windows.Forms.TreeNode("Press a letter button");
+            System.Windows.Forms.TreeNode treeNode31 = new System.Windows.Forms.TreeNode("Enter the number to bind");
+            System.Windows.Forms.TreeNode treeNode32 = new System.Windows.Forms.TreeNode("How to setup custom button", new System.Windows.Forms.TreeNode[] {
+            treeNode29,
+            treeNode30,
+            treeNode31});
+            System.Windows.Forms.TreeNode treeNode33 = new System.Windows.Forms.TreeNode("Info", new System.Windows.Forms.TreeNode[] {
+            treeNode32});
+            System.Windows.Forms.TreeNode treeNode34 = new System.Windows.Forms.TreeNode("Ensure remote has batteries");
+            System.Windows.Forms.TreeNode treeNode35 = new System.Windows.Forms.TreeNode("Press power button until it clicks");
+            System.Windows.Forms.TreeNode treeNode36 = new System.Windows.Forms.TreeNode("Check remote is compatible with TV");
+            System.Windows.Forms.TreeNode treeNode37 = new System.Windows.Forms.TreeNode("TV won\'t turn on", new System.Windows.Forms.TreeNode[] {
+            treeNode34,
+            treeNode35,
+            treeNode36});
+            System.Windows.Forms.TreeNode treeNode38 = new System.Windows.Forms.TreeNode("Troubleshooting", new System.Windows.Forms.TreeNode[] {
+            treeNode37});
+            System.Windows.Forms.TreeNode treeNode39 = new System.Windows.Forms.TreeNode("Call 555-555-5555");
+            System.Windows.Forms.TreeNode treeNode40 = new System.Windows.Forms.TreeNode("or email test@site.com");
+            System.Windows.Forms.TreeNode treeNode41 = new System.Windows.Forms.TreeNode("Other Questions", new System.Windows.Forms.TreeNode[] {
+            treeNode39,
+            treeNode40});
+            System.Windows.Forms.TreeNode treeNode42 = new System.Windows.Forms.TreeNode("TODO: add more items");
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmMain));
             this.btnPower = new System.Windows.Forms.Button();
             this.btnA = new System.Windows.Forms.Button();
@@ -82,6 +82,7 @@
             this.btnDown = new System.Windows.Forms.Button();
             this.btnOk = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.pbxCover = new System.Windows.Forms.PictureBox();
             this.btnSetup = new System.Windows.Forms.Button();
             this.btnInput = new System.Windows.Forms.Button();
             this.btnMenu = new System.Windows.Forms.Button();
@@ -97,21 +98,22 @@
             this.label6 = new System.Windows.Forms.Label();
             this.btnCover = new System.Windows.Forms.Button();
             this.btnHelp = new System.Windows.Forms.Button();
-            this.pbxCover = new System.Windows.Forms.PictureBox();
             this.tbxPresses = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
             this.btnClearLog = new System.Windows.Forms.Button();
             this.label8 = new System.Windows.Forms.Label();
+            this.btnExit = new System.Windows.Forms.Button();
+            this.btnLast = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
-            this.gbxInfo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbxCover)).BeginInit();
+            this.gbxInfo.SuspendLayout();
             this.SuspendLayout();
             // 
             // btnPower
             // 
             this.btnPower.Location = new System.Drawing.Point(16, 22);
             this.btnPower.Name = "btnPower";
-            this.btnPower.Size = new System.Drawing.Size(210, 23);
+            this.btnPower.Size = new System.Drawing.Size(96, 23);
             this.btnPower.TabIndex = 0;
             this.btnPower.Text = "Power";
             this.btnPower.UseVisualStyleBackColor = true;
@@ -119,9 +121,9 @@
             // 
             // btnA
             // 
-            this.btnA.Location = new System.Drawing.Point(26, 145);
+            this.btnA.Location = new System.Drawing.Point(35, 51);
             this.btnA.Name = "btnA";
-            this.btnA.Size = new System.Drawing.Size(33, 27);
+            this.btnA.Size = new System.Drawing.Size(59, 27);
             this.btnA.TabIndex = 1;
             this.btnA.Text = "A";
             this.btnA.UseVisualStyleBackColor = true;
@@ -129,9 +131,9 @@
             // 
             // btnB
             // 
-            this.btnB.Location = new System.Drawing.Point(65, 145);
+            this.btnB.Location = new System.Drawing.Point(35, 76);
             this.btnB.Name = "btnB";
-            this.btnB.Size = new System.Drawing.Size(33, 27);
+            this.btnB.Size = new System.Drawing.Size(59, 27);
             this.btnB.TabIndex = 2;
             this.btnB.Text = "B";
             this.btnB.UseVisualStyleBackColor = true;
@@ -139,9 +141,9 @@
             // 
             // BtnC
             // 
-            this.BtnC.Location = new System.Drawing.Point(149, 145);
+            this.BtnC.Location = new System.Drawing.Point(139, 51);
             this.BtnC.Name = "BtnC";
-            this.BtnC.Size = new System.Drawing.Size(33, 27);
+            this.BtnC.Size = new System.Drawing.Size(52, 27);
             this.BtnC.TabIndex = 3;
             this.BtnC.Text = "C";
             this.BtnC.UseVisualStyleBackColor = true;
@@ -149,9 +151,9 @@
             // 
             // btnD
             // 
-            this.btnD.Location = new System.Drawing.Point(188, 145);
+            this.btnD.Location = new System.Drawing.Point(139, 76);
             this.btnD.Name = "btnD";
-            this.btnD.Size = new System.Drawing.Size(33, 27);
+            this.btnD.Size = new System.Drawing.Size(52, 27);
             this.btnD.TabIndex = 4;
             this.btnD.Text = "D";
             this.btnD.UseVisualStyleBackColor = true;
@@ -249,7 +251,7 @@
             // 
             // btnVolDown
             // 
-            this.btnVolDown.Location = new System.Drawing.Point(26, 101);
+            this.btnVolDown.Location = new System.Drawing.Point(26, 155);
             this.btnVolDown.Name = "btnVolDown";
             this.btnVolDown.Size = new System.Drawing.Size(33, 27);
             this.btnVolDown.TabIndex = 14;
@@ -259,7 +261,7 @@
             // 
             // btnChDown
             // 
-            this.btnChDown.Location = new System.Drawing.Point(188, 101);
+            this.btnChDown.Location = new System.Drawing.Point(188, 155);
             this.btnChDown.Name = "btnChDown";
             this.btnChDown.Size = new System.Drawing.Size(33, 27);
             this.btnChDown.TabIndex = 15;
@@ -269,7 +271,7 @@
             // 
             // btnVolUp
             // 
-            this.btnVolUp.Location = new System.Drawing.Point(26, 72);
+            this.btnVolUp.Location = new System.Drawing.Point(26, 126);
             this.btnVolUp.Name = "btnVolUp";
             this.btnVolUp.Size = new System.Drawing.Size(33, 27);
             this.btnVolUp.TabIndex = 16;
@@ -279,7 +281,7 @@
             // 
             // btnChUp
             // 
-            this.btnChUp.Location = new System.Drawing.Point(188, 72);
+            this.btnChUp.Location = new System.Drawing.Point(188, 126);
             this.btnChUp.Name = "btnChUp";
             this.btnChUp.Size = new System.Drawing.Size(33, 27);
             this.btnChUp.TabIndex = 17;
@@ -299,7 +301,7 @@
             // 
             // btnMute
             // 
-            this.btnMute.Location = new System.Drawing.Point(87, 74);
+            this.btnMute.Location = new System.Drawing.Point(19, 252);
             this.btnMute.Name = "btnMute";
             this.btnMute.Size = new System.Drawing.Size(75, 23);
             this.btnMute.TabIndex = 19;
@@ -310,7 +312,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(13, 52);
+            this.label1.Location = new System.Drawing.Point(13, 106);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(55, 17);
             this.label1.TabIndex = 20;
@@ -319,7 +321,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(166, 52);
+            this.label2.Location = new System.Drawing.Point(166, 106);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(60, 17);
             this.label2.TabIndex = 21;
@@ -383,6 +385,8 @@
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.pbxCover);
+            this.groupBox1.Controls.Add(this.btnLast);
+            this.groupBox1.Controls.Add(this.btnExit);
             this.groupBox1.Controls.Add(this.btnSetup);
             this.groupBox1.Controls.Add(this.btnInput);
             this.groupBox1.Controls.Add(this.btnMenu);
@@ -422,9 +426,20 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Remote Face";
             // 
+            // pbxCover
+            // 
+            this.pbxCover.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.pbxCover.Location = new System.Drawing.Point(-13, 186);
+            this.pbxCover.Name = "pbxCover";
+            this.pbxCover.Size = new System.Drawing.Size(285, 311);
+            this.pbxCover.TabIndex = 41;
+            this.pbxCover.TabStop = false;
+            this.pbxCover.Tag = "-10, 178";
+            this.pbxCover.Visible = false;
+            // 
             // btnSetup
             // 
-            this.btnSetup.Location = new System.Drawing.Point(26, 254);
+            this.btnSetup.Location = new System.Drawing.Point(26, 384);
             this.btnSetup.Name = "btnSetup";
             this.btnSetup.Size = new System.Drawing.Size(68, 23);
             this.btnSetup.TabIndex = 32;
@@ -434,9 +449,9 @@
             // 
             // btnInput
             // 
-            this.btnInput.Location = new System.Drawing.Point(139, 190);
+            this.btnInput.Location = new System.Drawing.Point(118, 21);
             this.btnInput.Name = "btnInput";
-            this.btnInput.Size = new System.Drawing.Size(68, 23);
+            this.btnInput.Size = new System.Drawing.Size(103, 23);
             this.btnInput.TabIndex = 31;
             this.btnInput.Text = "Input";
             this.btnInput.UseVisualStyleBackColor = true;
@@ -454,7 +469,7 @@
             // 
             // btnCaptions
             // 
-            this.btnCaptions.Location = new System.Drawing.Point(87, 103);
+            this.btnCaptions.Location = new System.Drawing.Point(87, 157);
             this.btnCaptions.Name = "btnCaptions";
             this.btnCaptions.Size = new System.Drawing.Size(75, 23);
             this.btnCaptions.TabIndex = 29;
@@ -477,39 +492,39 @@
             // 
             this.treeView1.Location = new System.Drawing.Point(6, 22);
             this.treeView1.Name = "treeView1";
-            treeNode15.Name = "Node0";
-            treeNode15.Text = "Press the \'Setup\' button";
-            treeNode16.Name = "Node2";
-            treeNode16.Text = "Press a letter button";
-            treeNode17.Name = "Node3";
-            treeNode17.Text = "Enter the number to bind";
-            treeNode18.Name = "Node2";
-            treeNode18.Text = "How to setup custom button";
-            treeNode19.Name = "Node0";
-            treeNode19.Text = "Info";
-            treeNode20.Name = "Node4";
-            treeNode20.Text = "Ensure remote has batteries";
-            treeNode21.Name = "Node5";
-            treeNode21.Text = "Press power button until it clicks";
-            treeNode22.Name = "Node6";
-            treeNode22.Text = "Check remote is compatible with TV";
-            treeNode23.Name = "Node6";
-            treeNode23.Text = "TV won\'t turn on";
-            treeNode24.Name = "Node1";
-            treeNode24.Text = "Troubleshooting";
-            treeNode25.Name = "Node8";
-            treeNode25.Text = "Call 555-555-5555";
-            treeNode26.Name = "Node9";
-            treeNode26.Text = "or email test@site.com";
-            treeNode27.Name = "Node7";
-            treeNode27.Text = "Other Questions";
-            treeNode28.Name = "Node10";
-            treeNode28.Text = "TODO: add more items";
+            treeNode29.Name = "Node0";
+            treeNode29.Text = "Press the \'Setup\' button";
+            treeNode30.Name = "Node2";
+            treeNode30.Text = "Press a letter button";
+            treeNode31.Name = "Node3";
+            treeNode31.Text = "Enter the number to bind";
+            treeNode32.Name = "Node2";
+            treeNode32.Text = "How to setup custom button";
+            treeNode33.Name = "Node0";
+            treeNode33.Text = "Info";
+            treeNode34.Name = "Node4";
+            treeNode34.Text = "Ensure remote has batteries";
+            treeNode35.Name = "Node5";
+            treeNode35.Text = "Press power button until it clicks";
+            treeNode36.Name = "Node6";
+            treeNode36.Text = "Check remote is compatible with TV";
+            treeNode37.Name = "Node6";
+            treeNode37.Text = "TV won\'t turn on";
+            treeNode38.Name = "Node1";
+            treeNode38.Text = "Troubleshooting";
+            treeNode39.Name = "Node8";
+            treeNode39.Text = "Call 555-555-5555";
+            treeNode40.Name = "Node9";
+            treeNode40.Text = "or email test@site.com";
+            treeNode41.Name = "Node7";
+            treeNode41.Text = "Other Questions";
+            treeNode42.Name = "Node10";
+            treeNode42.Text = "TODO: add more items";
             this.treeView1.Nodes.AddRange(new System.Windows.Forms.TreeNode[] {
-            treeNode19,
-            treeNode24,
-            treeNode27,
-            treeNode28});
+            treeNode33,
+            treeNode38,
+            treeNode41,
+            treeNode42});
             this.treeView1.Size = new System.Drawing.Size(296, 426);
             this.treeView1.TabIndex = 0;
             // 
@@ -596,16 +611,6 @@
             this.btnHelp.UseVisualStyleBackColor = true;
             this.btnHelp.Click += new System.EventHandler(this.btnHelp_Click);
             // 
-            // pbxCover
-            // 
-            this.pbxCover.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.pbxCover.Location = new System.Drawing.Point(-10, 178);
-            this.pbxCover.Name = "pbxCover";
-            this.pbxCover.Size = new System.Drawing.Size(285, 311);
-            this.pbxCover.TabIndex = 41;
-            this.pbxCover.TabStop = false;
-            this.pbxCover.Tag = "-10, 178";
-            // 
             // tbxPresses
             // 
             this.tbxPresses.Location = new System.Drawing.Point(686, 125);
@@ -637,11 +642,31 @@
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(24, 618);
+            this.label8.Location = new System.Drawing.Point(25, 611);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(420, 17);
+            this.label8.Size = new System.Drawing.Size(562, 51);
             this.label8.TabIndex = 44;
-            this.label8.Text = "**This Remote Design outdated, see sketches for updated design";
+            this.label8.Text = resources.GetString("label8.Text");
+            // 
+            // btnExit
+            // 
+            this.btnExit.Location = new System.Drawing.Point(139, 190);
+            this.btnExit.Name = "btnExit";
+            this.btnExit.Size = new System.Drawing.Size(68, 23);
+            this.btnExit.TabIndex = 33;
+            this.btnExit.Tag = "Does Nothing";
+            this.btnExit.Text = "Exit";
+            this.btnExit.UseVisualStyleBackColor = true;
+            // 
+            // btnLast
+            // 
+            this.btnLast.Location = new System.Drawing.Point(139, 384);
+            this.btnLast.Name = "btnLast";
+            this.btnLast.Size = new System.Drawing.Size(68, 23);
+            this.btnLast.TabIndex = 34;
+            this.btnLast.Text = "Last";
+            this.btnLast.UseVisualStyleBackColor = true;
+            this.btnLast.Click += new System.EventHandler(this.btnLast_Click);
             // 
             // frmMain
             // 
@@ -668,8 +693,8 @@
             this.Load += new System.EventHandler(this.Form1_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
-            this.gbxInfo.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pbxCover)).EndInit();
+            this.gbxInfo.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -726,6 +751,8 @@
         private System.Windows.Forms.Button btnClearLog;
         private System.Windows.Forms.Button btnSetup;
         private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Button btnExit;
+        private System.Windows.Forms.Button btnLast;
     }
 }
 

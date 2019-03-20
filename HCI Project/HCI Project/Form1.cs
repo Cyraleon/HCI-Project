@@ -25,6 +25,7 @@ namespace HCI_Project
         int currInput = 0;
         string menu = "closed";
         string list = "closed";
+        int oldChannel = 3;
 
         string oldv = "";
         string newv = "";
@@ -107,6 +108,7 @@ namespace HCI_Project
         private void btnChUp_Click(object sender, EventArgs e)
         {
             oldv = channel.ToString();
+            oldChannel = channel;
             if (channel < 100)
                 channel++;
             else
@@ -118,6 +120,21 @@ namespace HCI_Project
         private void btnChDown_Click(object sender, EventArgs e)
         {
             oldv = channel.ToString();
+            oldChannel = channel;
+            if (channel > 1)
+                channel--;
+            else
+                channel = 100;
+            newv = channel.ToString();
+            PrintToLog("Channel", oldv, newv);
+        }
+
+        private void btnLast_Click(object sender, EventArgs e)
+        {
+            oldv = channel.ToString();
+            int temp = channel;
+            channel = oldChannel;
+            oldChannel = temp;
             if (channel > 1)
                 channel--;
             else
@@ -140,6 +157,7 @@ namespace HCI_Project
         private void btnA_Click(object sender, EventArgs e)
         {
             oldv = channel.ToString();
+            oldChannel = channel;
             if (A == "not configured")
             { /*do nothing*/}
             else
@@ -152,6 +170,7 @@ namespace HCI_Project
         private void btnB_Click(object sender, EventArgs e)
         {
             oldv = channel.ToString();
+            oldChannel = channel;
             if (B == "not configured")
             { /*do nothing*/}
             else
@@ -164,6 +183,7 @@ namespace HCI_Project
         private void BtnC_Click(object sender, EventArgs e)
         {
             oldv = channel.ToString();
+            oldChannel = channel;
             if (C == "not configured")
             { /*do nothing*/}
             else
@@ -176,6 +196,7 @@ namespace HCI_Project
         private void btnD_Click(object sender, EventArgs e)
         {
             oldv = channel.ToString();
+            oldChannel = channel;
             if (D == "not configured")
             { /*do nothing*/}
             else
@@ -306,7 +327,6 @@ namespace HCI_Project
         {
             currBinding += ((Button)sender).Text;
         }
-
     }
 
 }

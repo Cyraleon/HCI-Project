@@ -124,4 +124,9 @@ essential buttons to increase simplicity of use.
 Help Info also represents a sliding piece which has helpful info on it like 
 basic troubleshooting and how to set up custom button bindings.</value>
   </data>
+  <data name="label8.Text" xml:space="preserve">
+    <value>**This Remote Design has differences from the version described in our document
+  This is intended to give testers an opportunity to have an idea of what the remote does
+  If there are any questions, feel free to email us if the design document is insufficient</value>
+  </data>
 </root>
