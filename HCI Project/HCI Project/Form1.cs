@@ -291,18 +291,22 @@ namespace HCI_Project
                 case "A":
                     oldv =A;
                     A = finalBind;
+                    btnA.Text = finalBind;
                     break;
                 case "B":
                     oldv =B;
                     B = finalBind;
+                    btnB.Text = finalBind;
                     break;
                 case "C":
                     oldv =C;
                     C = finalBind;
+                    btnC.Text = finalBind;
                     break;
                 case "D":
                     oldv =D;
                     D = finalBind;
+                    btnD.Text = finalBind;
                     break;
                 default:
                     break;
