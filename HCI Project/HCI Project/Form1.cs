@@ -220,7 +220,7 @@ namespace HCI_Project
         private void btnInput_Click(object sender, EventArgs e)
         {
             oldv = Inputs[currInput];
-            currInput = (currInput++) % 3;
+            currInput = (++currInput) % 3;
             newv = Inputs[currInput];
             PrintToLog("Input", oldv, newv);
         }
@@ -291,22 +291,22 @@ namespace HCI_Project
                 case "A":
                     oldv =A;
                     A = finalBind;
-                    btnA.Text = finalBind;
+                    btnA.Invoke(new Action(() => btnA.Text = finalBind));
                     break;
                 case "B":
                     oldv =B;
                     B = finalBind;
-                    btnB.Text = finalBind;
+                    btnB.Invoke(new Action(() => btnB.Text = finalBind));
                     break;
                 case "C":
                     oldv =C;
                     C = finalBind;
-                    btnC.Text = finalBind;
+                    btnC.Invoke(new Action(() => btnC.Text = finalBind));
                     break;
                 case "D":
                     oldv =D;
                     D = finalBind;
-                    btnD.Text = finalBind;
+                    btnD.Invoke(new Action(() => btnD.Text = finalBind));
                     break;
                 default:
                     break;

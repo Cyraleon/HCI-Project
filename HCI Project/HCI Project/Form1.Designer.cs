@@ -56,7 +56,7 @@
             this.btnPower = new System.Windows.Forms.Button();
             this.btnA = new System.Windows.Forms.Button();
             this.btnB = new System.Windows.Forms.Button();
-            this.BtnC = new System.Windows.Forms.Button();
+            this.btnC = new System.Windows.Forms.Button();
             this.btnD = new System.Windows.Forms.Button();
             this.btn1 = new System.Windows.Forms.Button();
             this.btn2 = new System.Windows.Forms.Button();
@@ -141,16 +141,16 @@
             this.btnB.UseVisualStyleBackColor = false;
             this.btnB.Click += new System.EventHandler(this.btnB_Click);
             // 
-            // BtnC
+            // btnC
             // 
-            this.BtnC.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.BtnC.Location = new System.Drawing.Point(139, 51);
-            this.BtnC.Name = "BtnC";
-            this.BtnC.Size = new System.Drawing.Size(52, 27);
-            this.BtnC.TabIndex = 3;
-            this.BtnC.Text = "C";
-            this.BtnC.UseVisualStyleBackColor = false;
-            this.BtnC.Click += new System.EventHandler(this.BtnC_Click);
+            this.btnC.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.btnC.Location = new System.Drawing.Point(139, 51);
+            this.btnC.Name = "btnC";
+            this.btnC.Size = new System.Drawing.Size(52, 27);
+            this.btnC.TabIndex = 3;
+            this.btnC.Text = "C";
+            this.btnC.UseVisualStyleBackColor = false;
+            this.btnC.Click += new System.EventHandler(this.BtnC_Click);
             // 
             // btnD
             // 
@@ -401,7 +401,7 @@
             this.groupBox1.Controls.Add(this.btnDown);
             this.groupBox1.Controls.Add(this.btnB);
             this.groupBox1.Controls.Add(this.btnRight);
-            this.groupBox1.Controls.Add(this.BtnC);
+            this.groupBox1.Controls.Add(this.btnC);
             this.groupBox1.Controls.Add(this.btnLeft);
             this.groupBox1.Controls.Add(this.btnD);
             this.groupBox1.Controls.Add(this.btnUp);
@@ -709,7 +709,7 @@
         private System.Windows.Forms.Button btnPower;
         private System.Windows.Forms.Button btnA;
         private System.Windows.Forms.Button btnB;
-        private System.Windows.Forms.Button BtnC;
+        private System.Windows.Forms.Button btnC;
         private System.Windows.Forms.Button btnD;
         private System.Windows.Forms.Button btn1;
         private System.Windows.Forms.Button btn2;
